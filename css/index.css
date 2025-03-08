@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+      
+   body{
+ padding-top: 56px;
+ background-color: rgb(236, 226, 205);
+}
+    .highlight {
+     margin-top: 20px;
+    font-size: 1.2em;
+   
+}     
+    .social-icons {
+    margin-top: 10px;
+    margin-left: 5px;
+ }
+  .social-icon {
+    font-size: 22px;
+    color:  goldenrod;;
+    margin:  10px;
+    transition: color 0.3s;
+}
+.social-icon:hover {
+     color: #ffc107; 
+  }
+    
+.header {
+            background-image: url("/Imitation_Jewellery_EProject/images/header\ img1.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .btn-custom {
+            margin: 10px;
+        }
+        .nav-link{
+        color: white;
+        }
+        .nav-link:hover{
+      color: goldenrod;
+        }
+        .navbar-toggler{
+        border: 3px solid #266656;
+        background-color: #266656;
+        }
+        .navbar{
+        background-color:#266656;
+        }
+     .navbar{
+     font-family: 'Times New Roman', Times, serif;
+     }
+     .card {
+        border-radius: 50px;
+      transition: transform 0.2s;
+        }
+    .card:hover {
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.9);
+      transform: scale(1.05);
+ }
+
+    .brandss:hover{
+    color: goldenrod;
+    transform: translateX(5%);
+}
+   .a1:hover{
+    border-radius: 60px;
+}
+   .a1{
+    border: 2px solid goldenrod;
+    background-color: goldenrod;
+    font-family: 'Times New Roman', Times, serif;
+}
+   .brand1{
+   font-family: 'Times New Roman', Times, serif;
+}
+  .brand2{
+   font-family: 'Times New Roman', Times, serif;
+}
+.pro{
+border: 5px solid goldenrod;
+background-color: goldenrod;
+}
+.pro:hover{
+border-radius: 90vh;
+}
+.pro2{
+color: goldenrod;
+}
+.pro2:hover{
+color: goldenrod;
+}
+.footer {
+font-family: 'Times New Roman', Times, serif;
+background-color: #266656; 
+color: white; 
+}
+.footer a {
+color: white; 
+}
+.brandss {
+color: white; 
+}
+.brand3{
+font-family: 'Times New Roman', Times, serif;
+background-color: goldenrod;
+}
+.brandss:hover{
+color: goldenrod;
+transform: translateX(5%);}
+
+
+.underline {
+            position: relative;
+            display: inline-block;
+        }
+        .underline:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 2px;
+            background: goldenrod;
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+        .underline:hover:after {
+            transform: scaleX(1);
+        }
+        .carousel-item {
+            height: 500px;
+        }
+        .carousel-item img {
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover; 
+        }
+        .carousel-caption {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+        }
+        .b1{
+    animation-name: slideinleft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+@keyframes slideinleft{
+from{
+transform:translateX(-300px);}
+to{transform: translateX(0);}
+}
+
+.o1{
+border-radius: 50px;
+}
+.q1{
+border-radius: 50px;
+}
+.z1{
+color: goldenrod;
+font-size: 30px;
+}
+
+
+

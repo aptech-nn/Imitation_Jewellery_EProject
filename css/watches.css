@@ -1,0 +1,117 @@
+body {
+    background-color: #f5f5eb;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(236, 226, 205);
+}
+.text-primary-custom {
+    color: #1a3b32;
+}
+.text-secondary-custom {
+    color:goldenrod;
+}
+.border-primary-custom {
+    border-color: #1a3b32;
+}
+.card {
+transition: transform 0.2s; 
+border-radius: 80px;
+}
+.card:hover {
+transform: scale(1.05);
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+}
+.row h2{
+ font-size: medium;
+}
+p{
+font-size: small;
+}
+img{
+border-radius: 60px;
+}
+
+.footer {
+font-family: 'Times New Roman', Times, serif;
+background-color: #266656; 
+color: white; 
+}
+.footer a {
+color: white; 
+}
+.brandss {
+color: white; 
+}
+.brand3{
+font-family: 'Times New Roman', Times, serif;
+background-color: rgba(218, 165, 32, 0.918);
+}
+.brandss:hover{
+color: goldenrod;
+transform: translateX(5%);}
+
+.a1{
+    font-size: 30px;
+    color: goldenrod;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+        margin-left: 5px;
+     }
+      .social-icon {
+        font-size: 22px;
+        color:  goldenrod;;
+        margin:  10px;
+        transition: color 0.3s;
+    }
+    .social-icon:hover {
+         color: #ffc107; 
+      }
+      .nav-link{
+        color: white;
+        }
+        .nav-link:hover{
+      color: goldenrod;
+        }
+        .navbar-toggler{
+        border: 3px solid #266656;
+        background-color: #266656;
+        }
+        .navbar{
+        background-color:#266656;
+        }
+     .navbar{
+     font-family: 'Times New Roman', Times, serif;
+     }
+     .underline {
+        position: relative;
+        display: inline-block;
+    }
+    .underline:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 2px;
+        background: goldenrod;
+        transform: scaleX(0);
+        transition: transform 0.3s ease;
+    }
+    .underline:hover:after {
+        transform: scaleX(1);
+    }
+    .container{
+        font-family: 'Times New Roman', Times, serif;
+        }
+        h1{
+        color: goldenrod;
+        }
+        
+        .pro2{
+            color: goldenrod;
+            }
+            .pro2:hover{
+            color: goldenrod;
+            }
+        
